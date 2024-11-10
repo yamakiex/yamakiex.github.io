@@ -1,5 +1,9 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
@@ -9,8 +13,25 @@ body {
 header {
     background: #0073e6;
     color: white;
-    padding: 10px 0;
+    padding: 20px;
     text-align: center;
+}
+
+.header-content {
+    max-width: 800px;
+    margin: auto;
+}
+
+.hero-image {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.2);
 }
 
 main {
@@ -24,6 +45,16 @@ main {
 
 h1, h2, h3 {
     color: #333;
+    margin: 10px 0;
+}
+
+.overview, .features, .filters, .details {
+    margin-bottom: 20px;
+}
+
+h2 {
+    border-bottom: 2px solid #0073e6;
+    padding-bottom: 5px;
 }
 
 ul {
